@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class IndexController {
 
-    @GetMapping("/")
+    @GetMapping("/simpleget")
     @ResponseBody
     public String helloWorld() {
         return "Hello World!";
