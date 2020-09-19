@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class IndexController {
 
+    /**
+     * Test method
+     *
+     * @return "Hello World"
+     */
     @GetMapping("/simpleget")
     @ResponseBody
     public String helloWorld() {
