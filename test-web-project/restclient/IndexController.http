@@ -1,0 +1,9 @@
+GET http://localhost:8088/simpleget
+
+### response
+HTTP/1.1 200
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 12
+Date: Sat, 20 Mar 2021 05:20:24 GMT
+
+Hello World!
